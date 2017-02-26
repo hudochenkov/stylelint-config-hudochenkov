@@ -1,0 +1,34 @@
+{
+  "name": "stylelint-config-hudochenkov",
+  "version": "1.0.0",
+  "description": "My stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hudochenkov/stylelint-config-hudochenkov.git"
+  },
+  "author": "Aleks Hudochenkov <aleks@hudochenkov.com> (https://hudochenkov.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hudochenkov/stylelint-config-hudochenkov/issues"
+  },
+  "homepage": "https://github.com/hudochenkov/stylelint-config-hudochenkov#readme",
+  "eslintConfig": {
+    "extends": "eslint-config-hudochenkov"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.9.0",
+    "stylelint-order": "^0.3.0",
+    "stylelint-scss": "^1.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-hudochenkov": "^1.1.0",
+    "stylelint": "^7.9.0",
+    "stylelint-order": "^0.3.0",
+    "stylelint-scss": "^1.4.3"
+  }
+}
