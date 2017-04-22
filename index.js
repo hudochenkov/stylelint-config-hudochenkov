@@ -397,6 +397,7 @@ module.exports = {
 		'at-rule-no-vendor-prefix': true,
 		'at-rule-name-space-after': 'always',
 		'at-rule-semicolon-newline-after': 'always',
+		'at-rule-semicolon-space-before': 'never',
 
 		'comment-empty-line-before': ['always', {
 			except: ['first-nested'],
