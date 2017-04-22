@@ -11,7 +11,7 @@ module.exports = {
 		'scss/dollar-variable-colon-space-after': 'always-single-line',
 		'scss/dollar-variable-colon-space-before': 'never',
 
-		'order/declaration-block-order': [
+		'order/order': [
 			'dollar-variables',
 			'at-rules',
 			'declarations',
@@ -53,7 +53,7 @@ module.exports = {
 			// },
 			'rules',
 		],
-		'order/declaration-block-properties-specified-order': [
+		'order/properties-order': [
 			[
 				'lost-utility',
 				'lost-flex-container',
