@@ -358,14 +358,14 @@ module.exports = {
 		'selector-combinator-space-after': 'always',
 		'selector-combinator-space-before': 'always',
 		'selector-max-empty-lines': 0,
-		'selector-no-id': true,
-		'selector-no-universal': true,
+		'selector-max-id': 0,
+		'selector-max-universal': 0,
 		'selector-no-vendor-prefix': true,
 		'selector-pseudo-class-case': 'lower',
+		'selector-pseudo-class-no-unknown': true,
 		'selector-pseudo-class-parentheses-space-inside': 'never',
 		'selector-pseudo-element-case': 'lower',
 		'selector-pseudo-element-no-unknown': true,
-		'selector-pseudo-class-no-unknown': true,
 		'selector-type-case': 'lower',
 		'selector-type-no-unknown': true,
 
@@ -392,6 +392,7 @@ module.exports = {
 
 		'at-rule-empty-line-before': ['always', {
 			except: ['after-same-name', 'first-nested'],
+			ignore: ['after-comment'],
 		}],
 		'at-rule-name-case': 'lower',
 		'at-rule-no-vendor-prefix': true,
@@ -399,10 +400,6 @@ module.exports = {
 		'at-rule-semicolon-newline-after': 'always',
 		'at-rule-semicolon-space-before': 'never',
 
-		'comment-empty-line-before': ['always', {
-			except: ['first-nested'],
-			ignore: ['after-comment'],
-		}],
 		'comment-whitespace-inside': 'always',
 
 		'indentation': 'tab',
