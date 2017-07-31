@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-hudochenkov",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "My stylelint config",
   "main": "index.js",
   "scripts": {
@@ -22,13 +22,13 @@
   "peerDependencies": {
     "stylelint": "^8.0.0",
     "stylelint-order": "^0.6.0",
-    "stylelint-scss": "^1.5.1"
+    "stylelint-scss": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-hudochenkov": "^1.3.0",
     "stylelint": "^8.0.0",
     "stylelint-order": "^0.6.0",
-    "stylelint-scss": "^1.5.1"
+    "stylelint-scss": "^2.0.0"
   }
 }
