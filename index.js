@@ -403,7 +403,7 @@ module.exports = {
 
 		'comment-whitespace-inside': 'always',
 
-		'indentation': 'tab',
+		indentation: 'tab',
 		'max-empty-lines': 1,
 		'no-duplicate-selectors': true,
 		'no-eol-whitespace': true,
