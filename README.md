@@ -5,7 +5,7 @@ My config for [stylelint]. Uses rules from [`stylelint-order`] and  [`stylelint-
 ## Installation
 
 ```
-npm install stylelint-config-hudochenkov stylelint-order stylelint-scss
+npm install --save-dev stylelint-config-hudochenkov stylelint-config-recommended stylelint-order stylelint-scss
 ```
 
 ## Usage
