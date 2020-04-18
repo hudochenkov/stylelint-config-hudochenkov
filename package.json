@@ -13,17 +13,19 @@
     "extends": "eslint-config-hudochenkov"
   },
   "peerDependencies": {
-    "stylelint": "^11.0.0 || ^12.0.0 || ^13.0.0",
+    "stylelint": "^13.3.2",
     "stylelint-config-recommended": "^3.0.0",
-    "stylelint-order": "^3.1.1 || ^4.0.0",
-    "stylelint-scss": "^3.11.1"
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.17.0"
   },
   "devDependencies": {
-    "eslint": "^6.4.0",
-    "eslint-config-hudochenkov": "^3.0.1",
-    "stylelint": "^11.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-hudochenkov": "^5.0.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-unicorn": "^18.0.1",
+    "stylelint": "^13.3.2",
     "stylelint-config-recommended": "^3.0.0",
-    "stylelint-order": "^3.1.1",
-    "stylelint-scss": "^3.11.1"
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.17.0"
   }
 }
