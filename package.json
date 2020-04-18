@@ -20,10 +20,10 @@
     "extends": "eslint-config-hudochenkov"
   },
   "peerDependencies": {
-    "stylelint": ">=11.0.0",
-    "stylelint-config-recommended": ">=3.0.0",
-    "stylelint-order": ">=3.1.1",
-    "stylelint-scss": ">=3.11.1"
+    "stylelint": "^11.0.0 || ^12.0.0 || ^13.0.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-order": "^3.1.1 || ^4.0.0",
+    "stylelint-scss": "^3.11.1"
   },
   "devDependencies": {
     "eslint": "^6.4.0",
