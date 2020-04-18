@@ -6,16 +6,9 @@
   "scripts": {
     "test": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hudochenkov/stylelint-config-hudochenkov.git"
-  },
+  "repository": "hudochenkov/stylelint-config-hudochenkov",
   "author": "Aleks Hudochenkov <aleks@hudochenkov.com> (https://hudochenkov.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hudochenkov/stylelint-config-hudochenkov/issues"
-  },
-  "homepage": "https://github.com/hudochenkov/stylelint-config-hudochenkov#readme",
   "eslintConfig": {
     "extends": "eslint-config-hudochenkov"
   },
