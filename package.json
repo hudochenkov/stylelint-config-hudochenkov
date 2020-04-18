@@ -4,14 +4,21 @@
   "description": "My stylelint config",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "lint": "eslint . --max-warnings=0",
+    "prettier-check": "prettier '**/*.js' --check",
+    "fix": "eslint . --fix --max-warnings=0 && prettier '**/*.js' --write",
+    "test": "npm run prettier-check && npm run lint"
   },
   "repository": "hudochenkov/stylelint-config-hudochenkov",
   "author": "Aleks Hudochenkov <aleks@hudochenkov.com> (https://hudochenkov.com)",
   "license": "MIT",
   "eslintConfig": {
-    "extends": "eslint-config-hudochenkov"
+    "extends": [
+      "eslint-config-hudochenkov",
+      "eslint-config-prettier"
+    ]
   },
+  "prettier": "prettier-config-hudochenkov",
   "peerDependencies": {
     "stylelint": "^13.3.2",
     "stylelint-config-recommended": "^3.0.0",
@@ -21,11 +28,27 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-hudochenkov": "^5.0.2",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-unicorn": "^18.0.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.5",
+    "prettier": "^2.0.4",
+    "prettier-config-hudochenkov": "^0.2.0",
     "stylelint": "^13.3.2",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.17.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix --max-warnings=0",
+      "prettier --write"
+    ]
   }
 }
