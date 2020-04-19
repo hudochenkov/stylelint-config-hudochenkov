@@ -1,4 +1,6 @@
-# stylelint-config-hudochenkov [![Build Status][ci-img]][ci]
+# stylelint-config-hudochenkov
+
+[![Build Status][ci-img]][ci]
 
 My configs for [stylelint]. Uses rules from [`stylelint-order`] and [`stylelint-scss`].
 
@@ -56,8 +58,8 @@ Recommended to run stylelint with [`--max-warnings` flag](https://stylelint.io/u
 stylelint "**/*.css" --max-warnings 0
 ```
 
-[ci-img]: https://travis-ci.org/hudochenkov/stylelint-config-hudochenkov.svg
-[ci]: https://travis-ci.org/hudochenkov/stylelint-config-hudochenkov
+[ci-img]: https://github.com/hudochenkov/stylelint-config-hudochenkov/workflows/CI/badge.svg
+[ci]: https://github.com/hudochenkov/stylelint-config-hudochenkov/actions
 
 [stylelint]: https://stylelint.io/
 [`stylelint-order`]: https://github.com/hudochenkov/stylelint-order

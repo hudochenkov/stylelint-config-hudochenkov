@@ -4,10 +4,9 @@
   "description": "My stylelint config",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --max-warnings=0",
     "prettier-check": "prettier '**/*.js' --check",
+    "lint": "eslint . --max-warnings=0 && npm run prettier-check",
     "fix": "eslint . --fix --max-warnings=0 && prettier '**/*.js' --write",
-    "test2": "npm run prettier-check && npm run lint",
     "test": "stylelint test.css --max-warnings 0 --config full.js"
   },
   "repository": "hudochenkov/stylelint-config-hudochenkov",
