@@ -7,7 +7,8 @@
     "lint": "eslint . --max-warnings=0",
     "prettier-check": "prettier '**/*.js' --check",
     "fix": "eslint . --fix --max-warnings=0 && prettier '**/*.js' --write",
-    "test": "npm run prettier-check && npm run lint"
+    "test2": "npm run prettier-check && npm run lint",
+    "test": "stylelint test.css --max-warnings 0 --config full.js"
   },
   "repository": "hudochenkov/stylelint-config-hudochenkov",
   "author": "Aleks Hudochenkov <aleks@hudochenkov.com> (https://hudochenkov.com)",
@@ -20,10 +21,7 @@
   },
   "prettier": "prettier-config-hudochenkov",
   "peerDependencies": {
-    "stylelint": "^13.3.2",
-    "stylelint-config-recommended": "^3.0.0",
-    "stylelint-order": "^4.0.0",
-    "stylelint-scss": "^3.17.0"
+    "stylelint": "^13.3.2"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -36,7 +34,6 @@
     "prettier": "^2.0.4",
     "prettier-config-hudochenkov": "^0.2.0",
     "stylelint": "^13.3.2",
-    "stylelint-config-recommended": "^3.0.0",
     "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.17.0"
   },

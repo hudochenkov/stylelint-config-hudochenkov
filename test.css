@@ -1,0 +1,51 @@
+@custom-media --header-palm (width < 782px);
+@custom-media --not-header-palm (width >= 782px);
+
+.header {
+	position: relative;
+	z-index: 2;
+	margin-bottom: 50px;
+	transition-delay: 0.3s;
+}
+
+.header__inner {
+	position: relative;
+	z-index: 1;
+	border-bottom: 1px solid transparent;
+
+	@media (--header-palm) {
+		margin-bottom: 20px;
+		border-bottom: 1px solid #ecf0f1;
+	}
+}
+
+.footer {
+	$hello: 0;
+	$hi: #000;
+
+	--hello: 0px;
+	--hi: black;
+
+	position: relative;
+	z-index: 1;
+
+	@media (min-width: 100px) {
+		display: block;
+	}
+
+	@media (min-width: 200px) {
+		display: block;
+	}
+
+	&::before {
+		display: none;
+	}
+
+	.a {
+		display: none;
+	}
+
+	.b {
+		display: grid;
+	}
+}
