@@ -10,31 +10,19 @@ on:
 
 jobs:
   test:
-    name: Lint and test on Node.js ${{ matrix.node }}
+    name: Lint and test
 
     runs-on: ubuntu-latest
-
-    strategy:
-      fail-fast: false
-      matrix:
-        node: [10, 12]
 
     steps:
       - uses: actions/checkout@v2
 
-      - name: Use Node.js ${{ matrix.node }}
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node }}
+          node-version: '12'
 
-      - name: Install latest npm
-        run: npm install --global npm@latest
+      - run: npm ci
 
-      - name: Install dependencies
-        run: npm ci
+      - run: npm run lint
 
-      - name: Lint
-        run: npm run lint
-
-      - name: Test
-        run: npm test
+      - run: npm test
