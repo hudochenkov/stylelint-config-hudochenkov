@@ -9,7 +9,7 @@ module.exports = {
 				'declarations',
 				{
 					type: 'at-rule',
-					name: 'keyframes',
+					name: 'supports',
 				},
 				{
 					type: 'at-rule',
