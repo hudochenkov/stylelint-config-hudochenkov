@@ -3,6 +3,9 @@
 	"version": "5.0.0",
 	"description": "My Stylelint config",
 	"main": "index.js",
+	"files": [
+		"index.js"
+	],
 	"scripts": {
 		"prettier-check": "prettier '**/*.js' --check",
 		"lint": "eslint . --max-warnings=0 && npm run prettier-check",
