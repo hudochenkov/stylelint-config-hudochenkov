@@ -1,7 +1,7 @@
 {
 	"name": "stylelint-config-hudochenkov",
 	"version": "5.0.0",
-	"description": "My stylelint config",
+	"description": "My Stylelint config",
 	"main": "index.js",
 	"scripts": {
 		"prettier-check": "prettier '**/*.js' --check",

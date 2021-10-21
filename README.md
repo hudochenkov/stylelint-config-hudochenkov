@@ -1,10 +1,10 @@
 # stylelint-config-hudochenkov
 
-My configs for [stylelint]. Uses rules from [`stylelint-order`] and [`stylelint-scss`].
+My configs for [Stylelint]. Uses rules from [`stylelint-order`] and [`stylelint-scss`].
 
 Available configs:
 
-* `stylelint-config-hudochenkov` — default config which includes rules from stylelint core only.
+* `stylelint-config-hudochenkov` — default config which includes rules from Stylelint core only.
 * `stylelint-config-hudochenkov/dollar-variables` — config for `$dollar-variables`. Uses [`stylelint-scss`].
 * `stylelint-config-hudochenkov/order` — config for order of content within declaration blocks and properties order. Uses [`stylelint-order`].
 * `stylelint-config-hudochenkov/full` — combines all configs together and includes:
@@ -36,7 +36,7 @@ npm install --save-dev stylelint-order
 
 ## Usage
 
-Add chosen config to the [`extends` section](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) of your stylelint configuration:
+Add chosen config to the [`extends` section](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) of your Stylelint configuration:
 
 ```
 {
@@ -50,12 +50,12 @@ Add chosen config to the [`extends` section](https://eslint.org/docs/user-guide/
 }
 ```
 
-Recommended to run stylelint with [`--max-warnings` flag](https://stylelint.io/user-guide/usage/options#maxwarnings), because most of the rules has [`warning` severity](https://stylelint.io/user-guide/configure#severity):
+Recommended to run Stylelint with [`--max-warnings` flag](https://stylelint.io/user-guide/usage/options#maxwarnings), because most of the rules has [`warning` severity](https://stylelint.io/user-guide/configure#severity):
 
 ```
 stylelint "**/*.css" --max-warnings 0
 ```
 
-[stylelint]: https://stylelint.io/
+[Stylelint]: https://stylelint.io/
 [`stylelint-order`]: https://github.com/hudochenkov/stylelint-order
 [`stylelint-scss`]: https://github.com/kristerkari/stylelint-scss
