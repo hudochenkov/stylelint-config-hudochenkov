@@ -21,7 +21,6 @@ module.exports = {
 		'no-extra-semicolons': [true, { severity: 'error' }],
 		'font-family-no-duplicate-names': [true, { severity: 'error' }],
 		'font-family-no-missing-generic-family-keyword': [true, { severity: 'error' }],
-		'function-calc-no-invalid': [true, { severity: 'error' }],
 		'property-no-unknown': [true, { severity: 'error' }],
 		'block-no-empty': [true, { severity: 'warning' }],
 		'media-feature-name-no-unknown': [true, { severity: 'error' }],
