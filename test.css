@@ -5,6 +5,7 @@
 	position: relative;
 	z-index: 2;
 	margin-bottom: 50px;
+	color: rgb(0 0 0 / 30%);
 	transition-delay: 0.3s;
 }
 

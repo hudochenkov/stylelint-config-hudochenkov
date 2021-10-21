@@ -15,5 +15,6 @@ module.exports = {
 		'selector-max-id': [0, { severity: 'error' }],
 		'selector-no-qualifying-type': [true, { severity: 'error' }],
 		'media-feature-name-no-vendor-prefix': [true, { severity: 'warning' }],
+		'color-function-notation': ['modern', { severity: 'warning' }],
 	},
 };

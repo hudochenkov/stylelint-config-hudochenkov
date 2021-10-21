@@ -29,6 +29,10 @@ module.exports = {
 		'no-descending-specificity': [true, { severity: 'error' }],
 		'no-duplicate-at-import-rules': [true, { severity: 'error' }],
 		'no-empty-source': [true, { severity: 'warning' }],
+		'declaration-block-no-duplicate-custom-properties': [true, { severity: 'error' }],
+		'named-grid-areas-no-invalid': [true, { severity: 'error' }],
+		'no-invalid-position-at-import-rule': [true, { severity: 'error' }],
+		'custom-property-no-missing-var-function': [true, { severity: 'error' }],
 		// 'no-invalid-double-slash-comments': [null, { severity: 'warning' }],
 	},
 };

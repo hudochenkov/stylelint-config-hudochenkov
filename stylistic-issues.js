@@ -115,5 +115,6 @@ module.exports = {
 		'media-feature-name-case': ['lower', { severity: 'warning' }],
 		linebreaks: ['unix', { severity: 'warning' }],
 		'no-empty-first-line': [true, { severity: 'warning' }],
+		'no-irregular-whitespace': [true, { severity: 'error' }],
 	},
 };
