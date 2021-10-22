@@ -4,7 +4,13 @@
 	"description": "My Stylelint config",
 	"main": "index.js",
 	"files": [
-		"index.js"
+		"dollar-variables.js",
+		"full.js",
+		"index.js",
+		"limit-language-features.js",
+		"order.js",
+		"possible-errors.js",
+		"stylistic-issues.js"
 	],
 	"scripts": {
 		"prettier-check": "prettier '**/*.js' --check",
