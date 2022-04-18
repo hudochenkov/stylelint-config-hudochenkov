@@ -3,6 +3,7 @@ module.exports = {
 		'color-no-invalid-hex': [true, { severity: 'error' }],
 		'function-calc-no-unspaced-operator': [true, { severity: 'warning' }],
 		'function-linear-gradient-no-nonstandard-direction': [true, { severity: 'error' }],
+		'function-no-unknown': [true, { severity: 'error' }],
 		'string-no-newline': [true, { severity: 'error' }],
 		'unit-no-unknown': [true, { severity: 'error' }],
 		'keyframe-declaration-no-important': [true, { severity: 'error' }],
