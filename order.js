@@ -72,6 +72,7 @@ module.exports = {
 				'float',
 				'clear',
 				'object-fit',
+				'object-position',
 				'overflow',
 				'overflow-x',
 				'overflow-y',
