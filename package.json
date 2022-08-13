@@ -30,7 +30,7 @@
 	},
 	"prettier": "prettier-config-hudochenkov",
 	"peerDependencies": {
-		"stylelint": "^14.7.1"
+		"stylelint": "^14.10.0"
 	},
 	"devDependencies": {
 		"eslint": "^7.3.0",

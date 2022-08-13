@@ -19,6 +19,7 @@ module.exports = {
 		'selector-pseudo-element-no-unknown': [true, { severity: 'error' }],
 		'selector-type-no-unknown': [true, { severity: 'error' }],
 		'no-duplicate-selectors': [true, { severity: 'error' }],
+		'keyframe-block-no-duplicate-selectors': [true, { severity: 'error' }],
 		'no-extra-semicolons': [true, { severity: 'error' }],
 		'font-family-no-duplicate-names': [true, { severity: 'error' }],
 		'font-family-no-missing-generic-family-keyword': [true, { severity: 'error' }],
@@ -34,6 +35,7 @@ module.exports = {
 		'named-grid-areas-no-invalid': [true, { severity: 'error' }],
 		'no-invalid-position-at-import-rule': [true, { severity: 'error' }],
 		'custom-property-no-missing-var-function': [true, { severity: 'error' }],
+		'annotation-no-unknown': [true, { severity: 'error' }],
 		// 'no-invalid-double-slash-comments': [null, { severity: 'warning' }],
 	},
 };
