@@ -1,3 +1,3 @@
 module.exports = {
-	extends: ['./index', './dollar-variables', './order'],
+	extends: ['./index', './order'],
 };
