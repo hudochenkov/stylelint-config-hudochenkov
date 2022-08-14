@@ -33,11 +33,9 @@
 		"stylelint-order": "^5.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^7.3.0",
-		"eslint-config-hudochenkov": "^8.0.0",
-		"eslint-config-prettier": "^8.3.0",
-		"eslint-plugin-import": "^2.25.2",
-		"eslint-plugin-unicorn": "^33.0.1",
+		"eslint": "^8.22.0",
+		"eslint-config-hudochenkov": "^9.0.0",
+		"eslint-config-prettier": "^8.5.0",
 		"husky": "^8.0.1",
 		"lint-staged": "^13.0.3",
 		"prettier": "^2.7.1",
