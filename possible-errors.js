@@ -20,7 +20,6 @@ module.exports = {
 		'selector-type-no-unknown': [true, { severity: 'error' }],
 		'no-duplicate-selectors': [true, { severity: 'error' }],
 		'keyframe-block-no-duplicate-selectors': [true, { severity: 'error' }],
-		'no-extra-semicolons': [true, { severity: 'error' }],
 		'font-family-no-duplicate-names': [true, { severity: 'error' }],
 		'font-family-no-missing-generic-family-keyword': [true, { severity: 'error' }],
 		'property-no-unknown': [true, { severity: 'error' }],
