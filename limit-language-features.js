@@ -15,5 +15,13 @@ module.exports = {
 		'selector-no-qualifying-type': [true, { severity: 'error' }],
 		'media-feature-name-no-vendor-prefix': [true, { severity: 'warning' }],
 		'color-function-notation': ['modern', { severity: 'warning' }],
+		'declaration-property-value-disallowed-list': [
+			{
+				// Most of the time it produces issues in UI
+				// https://blog.kizu.dev/never-use-overflow-scroll/
+				'/^overflow(-(x|y|inline|block))?$/i': /\bscroll\b/i,
+			},
+			{ severity: 'error' },
+		],
 	},
 };
