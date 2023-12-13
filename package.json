@@ -29,8 +29,8 @@
 	},
 	"prettier": "prettier-config-hudochenkov",
 	"peerDependencies": {
-		"stylelint": "^15.0.0",
-		"stylelint-order": "^6.0.2"
+		"stylelint": "^16.0.2",
+		"stylelint-order": "^6.0.4"
 	},
 	"devDependencies": {
 		"eslint": "^8.40.0",
