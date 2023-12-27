@@ -88,6 +88,7 @@ module.exports = {
 				'height',
 				'min-height',
 				'max-height',
+				'aspect-ratio',
 				'margin',
 				'margin-inline',
 				'margin-block',
