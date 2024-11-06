@@ -13,6 +13,14 @@ module.exports = {
 				},
 				{
 					type: 'at-rule',
+					name: 'starting-style',
+				},
+				{
+					type: 'at-rule',
+					name: 'container',
+				},
+				{
+					type: 'at-rule',
 					name: 'media',
 				},
 				'rules',
