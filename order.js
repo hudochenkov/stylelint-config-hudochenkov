@@ -240,7 +240,6 @@ module.exports = {
 				'column-width',
 				'column-count',
 				'column-fill',
-				'column-gap',
 				'column-rule',
 				'column-rule-width',
 				'column-rule-style',
