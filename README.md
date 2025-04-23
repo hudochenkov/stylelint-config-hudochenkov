@@ -18,7 +18,7 @@ npm install --save-dev stylelint-config-hudochenkov
 
 ## Usage
 
-Add chosen config to the [`extends` section](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) of your Stylelint configuration:
+Add chosen config to the [`extends` section](https://stylelint.io/user-guide/configure#extends) of your Stylelint configuration:
 
 ```
 {
