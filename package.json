@@ -21,12 +21,6 @@
 	"repository": "hudochenkov/stylelint-config-hudochenkov",
 	"author": "Aleks Hudochenkov <aleks@hudochenkov.com> (https://hudochenkov.com)",
 	"license": "MIT",
-	"eslintConfig": {
-		"extends": [
-			"eslint-config-hudochenkov",
-			"eslint-config-prettier"
-		]
-	},
 	"prettier": "prettier-config-hudochenkov",
 	"peerDependencies": {
 		"stylelint": "^16.19.0",
