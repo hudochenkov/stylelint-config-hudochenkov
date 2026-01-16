@@ -23,8 +23,8 @@
 	"license": "MIT",
 	"prettier": "prettier-config-hudochenkov",
 	"peerDependencies": {
-		"stylelint": "^16.19.0",
-		"stylelint-order": "^7.0.0"
+		"stylelint": "^16.19.0 || ^17.0.0",
+		"stylelint-order": "^7.0.1"
 	},
 	"devDependencies": {
 		"eslint": "^9.39.2",
@@ -35,7 +35,7 @@
 		"lint-staged": "^16.2.7",
 		"prettier": "^3.8.0",
 		"prettier-config-hudochenkov": "^0.4.0",
-		"stylelint": "^16.19.0",
+		"stylelint": "^17.0.0",
 		"stylelint-order": "^7.0.1"
 	},
 	"lint-staged": {
