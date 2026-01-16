@@ -27,16 +27,16 @@
 		"stylelint-order": "^7.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^9.25.1",
-		"eslint-config-hudochenkov": "^11.0.0",
-		"eslint-config-prettier": "^10.1.2",
-		"globals": "^16.0.0",
+		"eslint": "^9.39.2",
+		"eslint-config-hudochenkov": "^13.0.0",
+		"eslint-config-prettier": "^10.1.8",
+		"globals": "^17.0.0",
 		"husky": "^9.1.7",
-		"lint-staged": "^15.5.1",
-		"prettier": "^3.5.3",
+		"lint-staged": "^16.2.7",
+		"prettier": "^3.8.0",
 		"prettier-config-hudochenkov": "^0.4.0",
 		"stylelint": "^16.19.0",
-		"stylelint-order": "^7.0.0"
+		"stylelint-order": "^7.0.1"
 	},
 	"lint-staged": {
 		"*.js": [
