@@ -33,6 +33,8 @@ module.exports = {
 				'content',
 				'position',
 				'inset',
+				'inset-block',
+				'inset-inline',
 				'top',
 				'right',
 				'bottom',
