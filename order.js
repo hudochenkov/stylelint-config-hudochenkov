@@ -245,7 +245,6 @@ module.exports = {
 				'background-origin',
 				'background-size',
 				'background-repeat',
-				'color',
 				'box-decoration-break',
 				'box-shadow',
 				'outline',
@@ -262,6 +261,7 @@ module.exports = {
 				'list-style-image',
 
 				//
+				'color',
 				'font',
 				'font-weight',
 				'font-style',
