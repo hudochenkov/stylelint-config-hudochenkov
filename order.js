@@ -142,7 +142,7 @@ module.exports = {
 				'clip',
 				'clip-path',
 
-				//
+				// Box model
 				'box-sizing',
 				'inline-size',
 				'min-inline-size',
@@ -250,7 +250,7 @@ module.exports = {
 				'border-bottom-right-image',
 				'border-bottom-left-image',
 
-				//
+				// Visual
 				'background',
 				'background-color',
 				'background-image',
@@ -287,7 +287,7 @@ module.exports = {
 				'list-style-type',
 				'list-style-image',
 
-				//
+				// Typography
 				'color',
 				'color-scheme',
 				'accent-color',
@@ -350,7 +350,7 @@ module.exports = {
 				'hyphens',
 				'interpolation-mode',
 
-				//
+				// Effects & interaction
 				'opacity',
 				'visibility',
 				'filter',
@@ -363,7 +363,7 @@ module.exports = {
 				'-webkit-touch-callout',
 				'touch-action',
 
-				//
+				// Miscellaneous
 				'unicode-bidi',
 				'direction',
 				'columns',
@@ -391,7 +391,7 @@ module.exports = {
 				'fill',
 				'stroke',
 
-				//
+				// Transitions & animations
 				'will-change',
 				'transition',
 				'transition-delay',
