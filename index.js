@@ -1,3 +1,4 @@
-module.exports = {
-	extends: ['./possible-errors', './limit-language-features', './stylistic-issues'],
+/** @type {import('stylelint').Config} */
+export default {
+	extends: ['./possible-errors.js', './limit-language-features.js', './stylistic-issues.js'],
 };

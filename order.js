@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('stylelint').Config} */
+export default {
 	plugins: ['stylelint-order'],
 	rules: {
 		'order/order': [

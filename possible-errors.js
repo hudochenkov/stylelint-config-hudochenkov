@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('stylelint').Config} */
+export default {
 	rules: {
 		'color-no-invalid-hex': [true, { severity: 'error' }],
 		'function-calc-no-unspaced-operator': [true, { severity: 'warning' }],

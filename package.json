@@ -2,7 +2,13 @@
 	"name": "stylelint-config-hudochenkov",
 	"version": "12.0.1",
 	"description": "My Stylelint config",
+	"type": "module",
 	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./full": "./full.js",
+		"./order": "./order.js"
+	},
 	"files": [
 		"full.js",
 		"index.js",

@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('stylelint').Config} */
+export default {
 	rules: {
 		'function-url-no-scheme-relative': [true, { severity: 'warning' }],
 		'shorthand-property-no-redundant-values': [true, { severity: 'warning' }],

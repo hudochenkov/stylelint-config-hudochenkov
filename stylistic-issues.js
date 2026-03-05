@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('stylelint').Config} */
+export default {
 	rules: {
 		'at-rule-empty-line-before': [
 			'always',

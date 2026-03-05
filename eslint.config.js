@@ -4,6 +4,11 @@ import globals from 'globals';
 
 export default [
 	...configs.main,
+	{
+		rules: {
+			'import/no-default-export': 'off',
+		},
+	},
 	eslintConfigPrettier,
 	{
 		languageOptions: {
