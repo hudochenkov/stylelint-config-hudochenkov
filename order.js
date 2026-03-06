@@ -293,6 +293,7 @@ module.exports = {
 				'transition-timing-function',
 				'transition-duration',
 				'transition-property',
+				'transition-behavior',
 				'transform',
 				'transform-origin',
 				'translate',
