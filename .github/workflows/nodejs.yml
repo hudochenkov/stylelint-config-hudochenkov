@@ -15,17 +15,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: actions/setup-node@v4
+      - uses: pnpm/setup@a0881977cd8ea73b1ed212236c99ca10dcc80cf4 # v3.1.1
         with:
-          node-version: 'lts/*'
+          version: 12
+          runtime: node@lts
+          cache: true
+          require-lockfile: true
 
-      - name: Install latest npm
-        run: npm install --location=global npm@latest
+      - run: pnpm run lint
 
-      - run: npm ci
-
-      - run: npm run lint
-
-      - run: npm test
+      - run: pnpm test

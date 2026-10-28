@@ -19,7 +19,7 @@
 	],
 	"scripts": {
 		"prettier-check": "prettier '**/*.js' --check",
-		"lint": "eslint . --max-warnings=0 && npm run prettier-check",
+		"lint": "eslint . --max-warnings=0 && pnpm run prettier-check",
 		"fix": "eslint . --fix --max-warnings=0 && prettier '**/*.js' --write",
 		"test": "stylelint test.css --max-warnings 0 --config full.js",
 		"prepare": "husky"
