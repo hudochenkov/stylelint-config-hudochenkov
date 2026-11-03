@@ -28,5 +28,6 @@ export default {
 					'Use auto or hidden instead of scroll. Most of the time scroll produces issues in UI. https://blog.kizu.dev/never-use-overflow-scroll/',
 			},
 		],
+		'relative-selector-nesting-notation': ['implicit', { severity: 'warning' }],
 	},
 };

@@ -36,6 +36,11 @@ export default {
 		'no-invalid-position-at-import-rule': [true, { severity: 'error' }],
 		'custom-property-no-missing-var-function': [true, { severity: 'error' }],
 		'annotation-no-unknown': [true, { severity: 'error' }],
-		// 'no-invalid-double-slash-comments': [null, { severity: 'warning' }],
+		'no-invalid-double-slash-comments': [null, { severity: 'warning' }],
+		'selector-no-deprecated': [true, { severity: 'error' }],
+		'selector-no-invalid': [true, { severity: 'error' }],
+		'selector-no-unmatchable': [true, { severity: 'error' }],
+		'at-charset-rule-no-invalid': [true, { severity: 'error' }],
+		'value-no-invalid': [true, { severity: 'error' }],
 	},
 };
