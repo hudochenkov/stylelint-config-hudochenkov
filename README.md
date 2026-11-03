@@ -32,10 +32,10 @@ Add chosen config to the [`extends` section](https://stylelint.io/user-guide/con
 }
 ```
 
-Recommended to run Stylelint with [`--max-warnings` flag](https://stylelint.io/user-guide/usage/options#maxwarnings), because many rules has [`warning` severity](https://stylelint.io/user-guide/configure#severity):
+Run Stylelint:
 
 ```
-stylelint "**/*.css" --max-warnings 0
+stylelint "**/*.css"
 ```
 
 [Stylelint]: https://stylelint.io/
