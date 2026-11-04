@@ -1,3 +1,4 @@
+tagVersionPrefix: ''
 minimumReleaseAgeExclude:
   - stylelint@18.0.0
   - stylelint-order@8.1.3
